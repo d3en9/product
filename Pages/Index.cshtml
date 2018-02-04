@@ -1,0 +1,45 @@
+﻿@page
+<html>
+    <head></head>
+    <body>
+        <div id="app" v-cloak>
+            <el-menu
+                :router="true"
+                :default-active="route"
+                class="el-menu-demo"
+                mode="horizontal"
+                background-color="#545c64"
+                text-color="#fff"
+                active-text-color="#ffd04b">
+                <el-menu-item index="1"><a href="/">DOPE</a></el-menu-item>
+                <el-submenu index="2">
+                    <template slot="title">Workspace</template>
+                    <el-menu-item index="/">All</el-menu-item>
+                    <el-menu-item index="/my">My</el-menu-item>            
+                </el-submenu>  
+                <el-menu-item index="3">logout</el-menu-item>      
+            </el-menu>  
+
+            <el-row>
+                
+                <el-col :span="20" :offset="2">
+                    
+                    <div class="grid-content bg-white">
+                        @*<div>
+                            <ul>
+                                <li v-for="e in errors">{{ e }}</li>
+                            </ul>
+                        </div>*@
+                        <router-view/>
+                    </div>
+                </el-col>
+                
+            </el-row>
+            
+             
+        </div>
+    </body>
+    <script src="~/js/app.js" asp-append-version="true"></script>
+</html>
+
+

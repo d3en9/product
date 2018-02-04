@@ -1,0 +1,12 @@
+d:\projects\product\bin\Debug\netcoreapp2.0\app.db
+d:\projects\product\bin\Debug\netcoreapp2.0\product.deps.json
+d:\projects\product\bin\Debug\netcoreapp2.0\product.runtimeconfig.json
+d:\projects\product\bin\Debug\netcoreapp2.0\product.runtimeconfig.dev.json
+d:\projects\product\bin\Debug\netcoreapp2.0\product.dll
+d:\projects\product\bin\Debug\netcoreapp2.0\product.pdb
+d:\projects\product\obj\Debug\netcoreapp2.0\product.csproj.CoreCompileInputs.cache
+d:\projects\product\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+d:\projects\product\obj\Debug\netcoreapp2.0\product.AssemblyInfoInputs.cache
+d:\projects\product\obj\Debug\netcoreapp2.0\product.AssemblyInfo.cs
+d:\projects\product\obj\Debug\netcoreapp2.0\product.dll
+d:\projects\product\obj\Debug\netcoreapp2.0\product.pdb
